@@ -85,7 +85,7 @@ submitComment = ->
       html = "<div class='users'>
             <h2>#{data.user.name}</h2>
             <img data-id=#{data.user_id} class='user_photo_comments' src=#{data.user.avatar}>
-            <p class='user_comment'>#{data.text}</p>
+            <p class='user_comment'>#{data.text.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</p>
             </div>"
       $(".newComment").after(html)
 
