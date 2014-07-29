@@ -3,12 +3,12 @@
     Collectors
 #collector-container
   #collector-bg 
-    #users
-      - for user in @users
-        .containerUser.col-sm-4
-          .user
-            = link_to "/users/#{user.id}" do
-              = image_tag user.avatar, :class => "userimage"
-          .name
-            =link_to user.first_name, "/users/#{user.id}"
-      .clear
+  #users
+    - for user in @users
+      .containerUser.col-sm-4
+        .user
+          = link_to "/users/#{user.id}" do
+            = image_tag user.avatar, :class => "userimage"
+        .name
+          =link_to user.first_name, "/users/#{user.id}"
+    .clear

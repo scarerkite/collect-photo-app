@@ -15,7 +15,7 @@ user7 = User.new(:first_name=>"Ed", :last_name => "Woodward", :email => "ed@gmai
 sriUserMatt = User.new(:first_name=>"Matt", :last_name => "Smith",:remote_avatar_url => "http://upload.wikimedia.org/wikipedia/en/2/28/Deep_Fried_Man_portrait_-_real_name_Daniel_Friedman_-_South_African_Comedian.jpg", :email => "matt@gmail.com", :password =>"password", :role => "user", :bio => "I love collecting vintage vinyl")
 sriUserLisa = User.new(:first_name=>"Lisa", :last_name => "Andrews",:remote_avatar_url => "http://10ambeauty.com/wp-content/uploads/2013/01/Wearing-NARS-And-God-Created-The-Woman.jpg", :email => "lisa2@gmail.com", :password =>"password", :role => "user", :bio => "Flowers are amazing")
 
-[user1, user2, user3, user4, user5, user6, user7, sriUserMatt, sriUserLisa].each(&:skip_confirmation!).each(&:save!)
+[user1, user2, user3, user4, user5, user6, user7, sriUserMatt, sriUserLisa].each(&:save!)
 
 # Generating two collections per user
 
