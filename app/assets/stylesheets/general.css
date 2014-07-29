@@ -1,0 +1,97 @@
+.inputFields{
+
+  width:300px;
+  margin-bottom: 5px;
+}
+
+#main {
+  margin-top: 90px;
+}
+
+#main .landingpage {
+margin-top: -30px;
+
+}
+
+#pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+#pic img {
+  width: 100%;
+}
+
+.btn {
+  margin: 5px 0;
+}
+
+#flashNav {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #32CD32; 
+}
+
+.navbar-header img {
+  margin: 12px 0 -12px 0;
+  height: 40px;
+}
+
+button span {
+  font-size: 20px;
+}
+
+#sri {
+  padding-top: 5px;
+}
+
+.myLogo{
+  margin: 0 0 0 17px;
+
+}
+.containerUser {
+
+  font-size: 40px;
+  font-weight:bold;
+  
+}
+.name {
+  margin: 10px 0px 5px 55px;
+  font-size: 25px;
+
+
+}
+
+#users {
+  margin: 10px 0 0 0;
+
+}
+
+#collector-bg {
+  background-image: url("http://www.123inspiration.com/wp-content/uploads/2013/02/Neatly-Arranged-Collections-by-Jim-Golden-8.jpg");
+  opacity: .3;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+
+#collector-container {
+  z-index: 1;
+  /*position: relative;*/
+  height: 100%;
+}
+
+
+/*.user {
+  border: solid 1px #CCC;
+  padding: 10px 10px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}*/
